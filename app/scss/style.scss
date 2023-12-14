@@ -1,0 +1,7 @@
+@import 'mixins';
+@import 'reset';
+@import 'veriable';
+
+.container {
+  @include min-max(375px, 1630px, 15px);
+}
